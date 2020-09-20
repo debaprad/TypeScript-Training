@@ -30,6 +30,13 @@ for(let tempReview of reviews)
         low = tempReview;
     }
 }
-
 console.log(`"highest review :" ${high}`);
 console.log(`"lowest review :" ${low}`);
+
+//adding to array
+reviews.push(123);
+for(let i=0;i<reviews.length;i++)
+{
+    console.log(reviews[i]);
+}
+

@@ -24,3 +24,8 @@ for (var _i = 0, reviews_1 = reviews; _i < reviews_1.length; _i++) {
 }
 console.log("\"highest review :\" " + high);
 console.log("\"lowest review :\" " + low);
+//adding to array
+reviews.push(123);
+for (var i = 0; i < reviews.length; i++) {
+    console.log(reviews[i]);
+}
